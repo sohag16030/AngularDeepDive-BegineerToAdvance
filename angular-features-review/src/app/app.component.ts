@@ -1,6 +1,8 @@
-import { Component } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import {CourseCardComponent} from "./course-card/course-card.component";
+import {Course} from "./course-card/model/course";
+import {COURSE_LIST} from "../assets/mockdata/courseList";
 
 @Component({
   selector: 'app-root',
@@ -9,6 +11,14 @@ import {CourseCardComponent} from "./course-card/course-card.component";
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
-export class AppComponent {
-  
+export class AppComponent implements OnInit{
+  angularCourse!: Course;
+  typescriptCourse!: Course;
+  rxjsCourse!: Course;
+
+  ngOnInit(): void {
+    this.angularCourse = COURSE_LIST[0];
+    this.typescriptCourse = COURSE_LIST[1];
+    this.rxjsCourse = COURSE_LIST[2];
+  }
 }
