@@ -21,4 +21,8 @@ export class AppComponent implements OnInit{
     this.typescriptCourse = COURSE_LIST[1];
     this.rxjsCourse = COURSE_LIST[2];
   }
+
+  onCourseViewed($event: Course) {
+    console.log($event.description);
+  }
 }
