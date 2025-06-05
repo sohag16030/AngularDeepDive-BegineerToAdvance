@@ -6,7 +6,7 @@ export const COURSE_LIST: Course[] = [
         description: 'Angular Core Deep Dive',
         iconUrl: 'assets/images/angular.png',
         longDescription: 'A deep dive into Angular core concepts including components, services, and dependency injection.',
-        category: 'Frontend',
+        category: 'Begineer',
         lessonCount: 25
     },
     {
@@ -14,7 +14,7 @@ export const COURSE_LIST: Course[] = [
         description: 'TypeScript for Beginners',
         iconUrl: 'assets/images/typescript.png',
         longDescription: 'Learn the fundamentals of TypeScript including types, interfaces, classes, and functions.',
-        category: 'Programming',
+        category: 'Intermediate',
         lessonCount: 18
     },
     {
@@ -22,7 +22,7 @@ export const COURSE_LIST: Course[] = [
         description: 'RxJS in Practice',
         iconUrl: 'assets/images/rxjs.png',
         longDescription: 'Master reactive programming in Angular using RxJS with real-world examples and operators.',
-        category: 'Reactive',
+        category: 'Advance',
         lessonCount: 30
     }
 ];

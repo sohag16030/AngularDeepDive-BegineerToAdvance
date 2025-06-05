@@ -1,18 +1,26 @@
-.card-container{
-  display: flex;
-  justify-content: center;
-  margin-bottom: 3rem;
-  margin-top: 1rem;
+.card-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
 }
 
 .card {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  width: 400px;
-  padding: 1rem;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px #2b2828;
-  overflow: hidden;
-  transition: transform 0.3s ease;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px #2b2828;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.begineer {
+    background: chartreuse;
+}
+
+.advance {
+    background: #ff5100;
 }
