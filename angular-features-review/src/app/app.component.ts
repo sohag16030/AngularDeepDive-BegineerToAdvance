@@ -25,4 +25,6 @@ export class AppComponent implements OnInit{
   onCourseViewed($event: Course) {
     console.log($event.description);
   }
+
+    protected readonly COURSE_LIST = COURSE_LIST;
 }
