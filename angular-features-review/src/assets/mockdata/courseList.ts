@@ -4,7 +4,7 @@ export const COURSE_LIST: Course[] = [
     {
         id: 1,
         description: 'Angular Core Deep Dive',
-        iconUrl: 'assets/images/angular.png',
+        //iconUrl: 'assets/images/angular.png',
         longDescription: 'A deep dive into Angular core concepts including components, services, and dependency injection.',
         category: 'Begineer',
         lessonCount: 25
