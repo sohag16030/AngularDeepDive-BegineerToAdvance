@@ -1,3 +1,10 @@
 @for (course of COURSE_LIST; track course.id) {
-    <course-card (courseSelected)="onCourseViewed($event)" [course]="course"/>
+    <course-card (courseSelected)="onCourseViewed($event)" [course]="course">
+        <div class="course-img">
+            <img width="300" height="200" src="{{course.iconUrl}}" alt="x">
+        </div>
+        <div class="course-description" style="text-align: center">
+            <p>{{ course.longDescription }}</p>
+        </div>
+    </course-card>
 }
